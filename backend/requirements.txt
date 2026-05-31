@@ -1,0 +1,21 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1   # ASGI server that runs FastAPI
+
+# HTTP client (for calling Ollama)
+httpx==0.27.0
+
+# PDF parsing
+PyMuPDF==1.24.5             # imported as "fitz"
+
+# Vector database
+chromadb==0.5.0
+
+# Data validation (FastAPI depends on this, explicit is better)
+pydantic==2.7.4
+
+# Python-multipart is required for FastAPI file uploads
+python-multipart==0.0.9
+
+google-generativeai==0.7.2
+python-dotenv==1.0.1
